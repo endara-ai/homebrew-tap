@@ -3,9 +3,9 @@
 cask "endara" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "a570925a83206cf80bbb13e0f32a37c55905f1104ca4029c5dd773bac244e476",
-         intel: "ca06328fab22930340c8353542570348933ddec3223dcfbe399458ac69840603"
+  version "0.1.2"
+  sha256 arm:   "69724af6da47d8327f79182c29bd165485ceeb66fddc2a66b38c4bce223ae7ea",
+         intel: "4881b49f4be65fdfdd478892de631ffed293711a79f6df026bf38a4638241280"
 
   url "https://github.com/endara-ai/endara-desktop/releases/download/v#{version}/Endara.Desktop_#{version}_#{arch}.dmg"
   name "Endara"
