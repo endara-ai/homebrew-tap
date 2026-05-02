@@ -3,28 +3,28 @@
 class EndaraRelay < Formula
   desc "Local MCP tool aggregator — one endpoint for many MCP servers"
   homepage "https://github.com/endara-ai/endara-relay"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/endara-ai/endara-relay/releases/download/v#{version}/endara-relay-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "4075d0b81542fbc602f30c0e4d1af1e3f0a35ae159cdc3e1ffd3de2bab30a0f3"
+      sha256 "d8edff830b9d74d7f91ed509d24c5d8ee695f39d5ad20c9791bc0c0a259ff609"
     end
     on_intel do
       url "https://github.com/endara-ai/endara-relay/releases/download/v#{version}/endara-relay-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "533691254d545e53de8ea84404b4cc1daa27663ea49f3a91df9cf4b8bc5a4915"
+      sha256 "f8b064e00687464c27004772d56f210b9b6ea474ec2e2c473dfcbc24b64d01f0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/endara-ai/endara-relay/releases/download/v#{version}/endara-relay-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fb25b8b8b5fd8ff83d0fd820ddcad646b92d6e26c578df054545de795274f91c"
+      sha256 "35591f402fab9a1e99f84ea790a08531adece885f6613e74f407e4c78f0092c4"
     end
     on_intel do
       url "https://github.com/endara-ai/endara-relay/releases/download/v#{version}/endara-relay-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "03ae55c5fa099a00ae901331ffde8aef5d5049f828630195cbad845a2fc5d114"
+      sha256 "6b1d9ea9153db457d0be9f8b1e911df62fa35140cc403006b49f06dc094e8602"
     end
   end
 
